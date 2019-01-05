@@ -88,7 +88,7 @@ if(file_exists($_SERVER['DOCUMENT_ROOT'].'/app/etc/local.xml')){
             $site = mysql_fetch_array(mysql_query("SELECT value as website FROM core_config_data WHERE path='web/unsecure/base_url'"));
           echo'<br><br>
                 ====================================================================<br>
-                                [ Admin FROM website : '.$site['website'].'] <br>
+                               [ Admin FROM website : '.$site['website'].'] <br>
                 ====================================================================<br>';
     }
     echo "
