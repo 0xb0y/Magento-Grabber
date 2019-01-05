@@ -106,7 +106,6 @@ $encode_text=$_POST['encode'];
 <body text="#000000"> 
 <p align="center"><font size="5" face="Bauhaus 93">Mailer Inbox Sender</font><font color="#FFFFFF" size="5" face="Bauhaus 93">Hadidi44</font></p> 
 <form name="form1" method="post" action="" enctype="multipart/form-data"> 
-
   <br> 
 
   <table width="100%" border="0" height="407"> 
